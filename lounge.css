@@ -2,16 +2,18 @@ body {
   font-size: small;
   font-family: Verdana,Helvetica,Arial,sans-serif ;
   line-height: 1.6em;
-}
-h1,h2 {
-  color: #007e7e;
-}
+      }
+
 h1 {
   font-size: 150%;
-}
+       }
+       h1,h2 {
+  color: #007e7e;}
+
 h2 {
   font-size: 130%;
-}
+         }
+
  #guarantee {
    line-height: 1.9em;
    font-style: italic;
@@ -29,6 +31,7 @@ h2 {
    background-repeat: no-repeat;
    background-position: top left;
   }
+
   .elixirs{
     border-width: thin;
     border-style: solid;
@@ -46,6 +49,10 @@ h2 {
     background-image: url(images/cocktail.gif);
     background-repeat: repeat-x;
                    }
+                   .amazing{
+                    width: 200px;
+                    float: right;
+                        }
   .elixirs h2{
     color: black;
        }
@@ -74,3 +81,6 @@ h2 {
     background: #f88396;
     color: #0d5353;
          }
+         .elixirs{
+          float: right;
+              }
